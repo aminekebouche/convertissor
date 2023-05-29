@@ -1,0 +1,144 @@
+* {
+    margin: 10px;
+}
+
+
+
+#home {
+    background-color: rgb(60, 134, 134);
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 1cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header{
+    font-size: 30px;
+    color: rgb(240, 234, 245);
+    float: left;
+    padding-left: 2cm;
+}
+
+
+
+nav button {
+    background-color: rgb(233, 233, 236);
+    border: 0;
+    font-size: 25px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: blue;
+
+   
+}
+
+nav button:hover{
+    background-color: rgb(176, 176, 180);
+    color: aqua;
+   
+}
+
+#all-conversion-sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#all-conversion-sections section{
+    display: grid;
+    justify-content: center;
+    width :600px;
+    height: 400px;
+    background-color: rgb(221, 240, 240);
+    border-top-style: solid;
+    border-top-width: 20px ;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+#temperature{
+    border-top-color: red ;
+}
+
+#weight{
+    border-top-color: green ;
+}
+
+#distance{
+    border-top-color: blue ;
+}
+
+figure {
+    float: left;
+    justify-self: auto;
+    width: 200px;
+}
+
+img{
+    width: 200px;
+}
+
+figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+fieldset button {
+    font-size: 20px;
+    border: transparent;
+    border-radius: 40px;
+    width: fit-content;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(173, 218, 173);
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#go-home {
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-color: rgb(40, 187, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:60px;
+    left:0;
+}
+
+#go-home img{
+    width:30px;
+}
+
+footer {
+    background-color:rgb(62, 92, 67);
+    margin-top: 20px;
+    height: 50px;
+    margin: 1rem -1cm -2cm -1cm;
+    padding-left: 2cm;
+    padding-top: 2cm;
+    text-align: center;    
+    
+}
+
+
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
